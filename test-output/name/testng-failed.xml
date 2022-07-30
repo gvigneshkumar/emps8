@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [name]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="naming(failed)">
+    <classes>
+      <class name="samples.ReportsSmartTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="mainClass"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- samples.ReportsSmartTest -->
+    </classes>
+  </test> <!-- naming(failed) -->
+</suite> <!-- Failed suite [name] -->

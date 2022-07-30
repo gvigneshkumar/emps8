@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-30T12:37:29 IST" name="Default suite" finished-at="2022-07-30T12:37:53 IST" duration-ms="23624">
+    <groups>
+    </groups>
+    <test started-at="2022-07-30T12:37:29 IST" name="Default test" finished-at="2022-07-30T12:37:53 IST" duration-ms="23624">
+      <class name="samples.ReportsSmartTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:29 IST" name="beforeTest" finished-at="2022-07-30T12:37:29 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:29 IST" name="beforemethod" finished-at="2022-07-30T12:37:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="FristClass()[pri:1, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:29 IST" name="FristClass" finished-at="2022-07-30T12:37:36 IST" duration-ms="7203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FristClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:36 IST" name="afterMethod" finished-at="2022-07-30T12:37:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:36 IST" name="beforemethod" finished-at="2022-07-30T12:37:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="WrongPass()[pri:2, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:36 IST" name="WrongPass" finished-at="2022-07-30T12:37:39 IST" duration-ms="2731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:39 IST" name="afterMethod" finished-at="2022-07-30T12:37:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:39 IST" name="beforemethod" finished-at="2022-07-30T12:37:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="WrongUserName()[pri:3, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:39 IST" name="WrongUserName" finished-at="2022-07-30T12:37:42 IST" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongUserName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:42 IST" name="afterMethod" finished-at="2022-07-30T12:37:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:42 IST" name="beforemethod" finished-at="2022-07-30T12:37:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="emptyUserName()[pri:4, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:42 IST" name="emptyUserName" finished-at="2022-07-30T12:37:45 IST" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUserName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:45 IST" name="afterMethod" finished-at="2022-07-30T12:37:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:45 IST" name="beforemethod" finished-at="2022-07-30T12:37:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="emptyPass()[pri:5, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:45 IST" name="emptyPass" finished-at="2022-07-30T12:37:47 IST" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:47 IST" name="afterMethod" finished-at="2022-07-30T12:37:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:47 IST" name="beforemethod" finished-at="2022-07-30T12:37:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="bothEmptyField()[pri:6, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:47 IST" name="bothEmptyField" finished-at="2022-07-30T12:37:50 IST" duration-ms="2988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothEmptyField -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:50 IST" name="afterMethod" finished-at="2022-07-30T12:37:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:50 IST" name="beforemethod" finished-at="2022-07-30T12:37:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="forgetPassWord()[pri:7, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:50 IST" name="forgetPassWord" finished-at="2022-07-30T12:37:52 IST" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPassWord -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:52 IST" name="afterMethod" finished-at="2022-07-30T12:37:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:samples.ReportsSmartTest@561b6512]" started-at="2022-07-30T12:37:52 IST" name="afterTest" finished-at="2022-07-30T12:37:53 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- samples.ReportsSmartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
