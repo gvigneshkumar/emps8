@@ -5,8 +5,8 @@
     <classes>
       <class name="samples.ReportsSmartTest">
         <methods>
+          <include name="FristClass"/>
           <include name="beforeTest"/>
-          <include name="WrongPass"/>
           <include name="afterMethod"/>
           <include name="afterTest"/>
           <include name="beforemethod"/>

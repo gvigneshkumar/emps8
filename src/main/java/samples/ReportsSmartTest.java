@@ -40,16 +40,16 @@ public class ReportsSmartTest {
 		extentReports.attachReporter(extentSpark);
 		System.setProperty("webdriver.chrome.driver", "/home/promantus/eclipse-workspace/Report/exe2/chromedriver");
 
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920x1080");
-		driver = new ChromeDriver(options);
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--headless");
+//		options.addArguments("--disable-dev-shm-usage");
+//		options.addArguments("--window-size=1920x1080");
+//		driver = new ChromeDriver(options);
 
-		driver.manage().window().maximize();
-//			    driver.get("https://www.google.com");
-//			    driver = new ChromeDriver();
+		//driver.manage().window().maximize();
+			   // driver.get("https://www.google.com");
+			    driver = new ChromeDriver();
 		try {
 
 			driver.get("https://dashboard-emps.g10.pw/organization/transport-manager/login");
@@ -107,13 +107,13 @@ public class ReportsSmartTest {
 	public void WrongPass() throws IOException {
 		ExtentTest extentTest = extentReports.createTest("Valied UserName Invalied PassWord");
 		System.setProperty("webdriver.chrome.driver", "/home/promantus/eclipse-workspace/Report/exe2/chromedriver");
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920x1080");
-		driver = new ChromeDriver(options);
-		// driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--headless");
+//		options.addArguments("--disable-dev-shm-usage");
+//		options.addArguments("--window-size=1920x1080");
+//		driver = new ChromeDriver(options);
+		  driver = new ChromeDriver();
 
 		try {
 			driver.get("https://dashboard-emps.g10.pw/organization/transport-manager/login");
@@ -148,13 +148,13 @@ public class ReportsSmartTest {
 	public void WrongUserName() throws IOException {
 		ExtentTest extentTest = extentReports.createTest(" Invalied UserName Valied PassWord ");
 		System.setProperty("webdriver.chrome.driver", "/home/promantus/eclipse-workspace/Report/exe2/chromedriver");
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920x1080");
-		driver = new ChromeDriver(options);
-//		driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--headless");
+//		options.addArguments("--disable-dev-shm-usage");
+//		options.addArguments("--window-size=1920x1080");
+//		driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 		try {
 			driver.get("https://dashboard-emps.g10.pw/organization/transport-manager/login");
 			driver.manage().window().maximize();
@@ -188,13 +188,13 @@ public class ReportsSmartTest {
 	public void emptyUserName() throws IOException {
 		ExtentTest extentTest = extentReports.createTest("Empty Username Correct password");
 		System.setProperty("webdriver.chrome.driver", "/home/promantus/eclipse-workspace/Report/exe2/chromedriver");
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920x1080");
-		driver = new ChromeDriver(options);
-		// driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--headless");
+//		options.addArguments("--disable-dev-shm-usage");
+//		options.addArguments("--window-size=1920x1080");
+//		driver = new ChromeDriver(options);
+		 driver = new ChromeDriver();
 		try {
 
 			driver.get("https://dashboard-emps.g10.pw/organization/transport-manager/login");
@@ -234,13 +234,13 @@ public class ReportsSmartTest {
 	public void emptyPass() throws IOException {
 		ExtentTest extentTest = extentReports.createTest("Correct username and Empty Password");
 		System.setProperty("webdriver.chrome.driver", "/home/promantus/eclipse-workspace/Report/exe2/chromedriver");
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920x1080");
-		driver = new ChromeDriver(options);
-		// driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--headless");
+//		options.addArguments("--disable-dev-shm-usage");
+//		options.addArguments("--window-size=1920x1080");
+//		driver = new ChromeDriver(options);
+		 driver = new ChromeDriver();
 		try {
 			driver.get("https://dashboard-emps.g10.pw/organization/transport-manager/login");
 			driver.manage().window().maximize();
@@ -275,13 +275,13 @@ public class ReportsSmartTest {
 		ExtentTest extentTest = extentReports.createTest("Both field are empty ");
 
 		System.setProperty("webdriver.chrome.driver", "/home/promantus/eclipse-workspace/Report/exe2/chromedriver");
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920x1080");
-		driver = new ChromeDriver(options);
-		// driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--no-sandbox");
+//		options.addArguments("--headless");
+//		options.addArguments("--disable-dev-shm-usage");
+//		options.addArguments("--window-size=1920x1080");
+//		driver = new ChromeDriver(options);
+		 driver = new ChromeDriver();
 		try {
 			driver.get("https://dashboard-emps.g10.pw/organization/transport-manager/login");
 			driver.manage().window().maximize();
@@ -318,13 +318,13 @@ public class ReportsSmartTest {
 	public void forgetPassWord() throws IOException {
 		System.setProperty("webdriver.chrome.driver", "/home/promantus/eclipse-workspace/Report/exe2/chromedriver");
 		ExtentTest extentTest = extentReports.createTest("Forget PassWord ");
-		ChromeOptions options = new ChromeOptions();
-	    options.addArguments("--no-sandbox");
-	    options.addArguments("--headless");
-	    options.addArguments("--disable-dev-shm-usage");
-	    options.addArguments("--window-size=1920x1080");
-	    driver = new ChromeDriver(options);
-	//	driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//	    options.addArguments("--no-sandbox");
+//	    options.addArguments("--headless");
+//	    options.addArguments("--disable-dev-shm-usage");
+//	    options.addArguments("--window-size=1920x1080");
+//	    driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 
 		try {
 			driver.get("https://dashboard-emps.g10.pw/organization/transport-manager/login");
